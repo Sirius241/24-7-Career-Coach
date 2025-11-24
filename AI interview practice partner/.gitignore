@@ -1,0 +1,11 @@
+# .gitignore file
+
+# Critical: Do not upload the file containing the secret API key.
+.env
+
+# Do not upload the virtual environment folder.
+venv/
+
+# Ignore Python compiled files.
+__pycache__/
+*.pyc
